@@ -62,7 +62,7 @@ const Profile = () => {
                 {user.roles &&
                     user.roles.map((role, index) => <li key={index}>{role}</li>)}
             </ul>
-            <h2>Заказы пользователя :</h2>
+            <h3>Заказы пользователя :</h3>
             {orders.length > 0 &&
                 product.length > 0 &&
                 orderStatuses.length > 0 && (
@@ -95,9 +95,14 @@ const Profile = () => {
                                         </CardGroup>
                                     );
                                 })}
+
                     </div>
                 )}
+            {!orders.length && (
+                <p>Вы пока не совершили ни одного заказа
+                    <p>Как только вы сделаете свой первый заказ - он отобразится здесь!</p></p>
 
+            )}
         </div>
     );
 };
