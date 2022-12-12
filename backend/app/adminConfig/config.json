@@ -1,0 +1,15 @@
+{
+    "mysql": {
+        "database": "flower",
+        "user": "sonya",
+        "password": "1234"
+    },
+    "server": {
+        "port": 8082
+    },
+    "app": {
+        "layouts": true,
+        "themes": true,
+        "languages": true
+    }
+}
