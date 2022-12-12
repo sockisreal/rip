@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Nav from "react-bootstrap/Nav";
-
 import Product from "./admin/product";
 import Orders from "./admin/orders";
 import Category from "./admin/category";

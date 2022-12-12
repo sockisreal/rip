@@ -15,7 +15,6 @@ const Component = () => {
   const user = useSelector((state) => state.toolkit.user);
   const dispatch = useDispatch();
   const isAdmin = user?.roles?.indexOf("ROLE_ADMIN") > -1;
-  const isUser = user?.roles?.indexOf("ROLE_USER") > -1;
   const exit = () => {
     dispatch(logout());
     window.location.reload();

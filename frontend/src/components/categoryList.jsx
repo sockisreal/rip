@@ -3,10 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import ButtonGroup from "react-bootstrap/ButtonGroup";
 import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
 import Carousel from 'react-bootstrap/Carousel';
 
 import { setCategory } from "./reducerSlice";
@@ -16,7 +13,6 @@ const Component = () => {
   const apiBase = useSelector((state) => state.toolkit.apiBase);
   const category = useSelector((state) => state.toolkit.category);
   const dispatch = useDispatch();
-  const isLoggedIn = useSelector((state) => state.toolkit.isLoggedIn);
 
   useEffect(() => {
     axios.get(`${apiBase}/category`, { headers: authHeader() }).then((resp) => {

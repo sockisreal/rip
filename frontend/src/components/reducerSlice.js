@@ -91,9 +91,6 @@ const slice = createSlice({
         addCategory: (state, action) => {
             state.category.push(action.payload);
         },
-        setProductCategory: (state, action) => {
-            state.productCategory = action.payload;
-        },
         setOrders: (state, action) => {
             state.orders = action.payload;
         },
@@ -163,5 +160,4 @@ export const {
     clearMessage,
     setUsers,
     updateProduct,
-    setProductCategory,
 } = slice.actions;

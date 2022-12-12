@@ -1,15 +1,12 @@
 import {useState} from "react";
-import {useSelector, useDispatch} from "react-redux";
+import {useSelector} from "react-redux";
 import {Link} from "react-router-dom";
 import axios from "axios";
 import Form from "react-bootstrap/Form";
-import ButtonGroup from "react-bootstrap/ButtonGroup";
 import Button from "react-bootstrap/Button";
 import Table from "react-bootstrap/Table";
 import Row from "react-bootstrap/Row";
-
 import authHeader from "../services/auth-header";
-import {setCategory, setProductCategory} from "./reducerSlice";
 
 const Component = () => {
     const apiBase = useSelector((state) => state.toolkit.apiBase);

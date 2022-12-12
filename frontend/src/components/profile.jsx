@@ -1,7 +1,6 @@
 import {useEffect} from "react";
 import {Navigate} from "react-router-dom";
 import {useSelector, useDispatch} from "react-redux";
-import Table from "react-bootstrap/Table";
 import axios from "axios";
 
 import authHeader from "../services/auth-header";
@@ -13,7 +12,6 @@ import {
 } from "./reducerSlice";
 import {CardGroup} from "react-bootstrap";
 import Card from "react-bootstrap/Card";
-import Row from "react-bootstrap/Row";
 
 const Profile = () => {
     const user = useSelector((state) => state.toolkit.user);
