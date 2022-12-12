@@ -23,9 +23,8 @@
 
 ______________________________
 
-1. админка:  
-  cd backend  
-  cd npm run mysql-admin  
+1. админка на бэке
+  npm run mysql-admin  
   http://127.0.0.1:8082/  
   admin  
   QQqq44 
