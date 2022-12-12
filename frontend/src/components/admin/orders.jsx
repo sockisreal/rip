@@ -223,7 +223,7 @@ const Component = () => {
               <th>ID</th>
               <th>Статус</th>
               <th>ID Товара</th>
-              <th>Пользоватль</th>
+              <th>Пользователь</th>
               <th>Дата</th>
               <th>Изменить</th>
             </tr>
