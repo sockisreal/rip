@@ -1,6 +1,6 @@
-1. создать пользователя бд  
-  имя sonya 
-  пароль 1234   
+1. создать пользователя бд    
+  имя sonya   
+  пароль 1234    
   localhost  
   authentication type: Standard !!!!
 
