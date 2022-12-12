@@ -4,7 +4,7 @@
   localhost  
   authentication type: Standard !!!!
 
-2. выполнить в воркбенче:  
+2. создать БД в воркбенче  
   CREATE DATABASE flower;  
   GRANT ALL PRIVILEGES ON flower.* TO sonya@'localhost';  
 
@@ -23,7 +23,7 @@
 
 ______________________________
 
-1. админка на бэке
+1. админка на бэке  
   npm run mysql-admin  
   http://127.0.0.1:8082/  
   admin  
