@@ -68,7 +68,7 @@ const Component = () => {
                   Войти
                 </Nav.Link>
                 <Nav.Link as={Link} to="/register" style={{color:'#ec407a'}}>
-                  Зерегистрироваться
+                  Зарегистрироваться
                 </Nav.Link>
               </>
             )}
